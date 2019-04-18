@@ -14,12 +14,10 @@ export class ProviderService extends MainService {
   
 
   getTaskLists() : Promise<TaskList[]> {
-    return this.get('localhost:8000/api/task_lists',{});
+    return this.get('http://localhost:8000/api/task_lists/',{});
   }
 
   getTasks(id:number){
-    return this.get(`localhost:8000/api/task_lists/${id}/tasks`,{})
+    return this.get(`http://localhost:8000/api/task_lists/${id}/tasks/`,{})
   }
-  
-  
 } 

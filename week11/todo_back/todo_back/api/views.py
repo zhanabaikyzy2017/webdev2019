@@ -13,20 +13,20 @@ def index (request):
 def show_task_lists(request):
     task_lists = TaskList.objects.all()
     json_tasks = [c.to_json() for c in task_lists]
-    data = {
-        'task_list': json_tasks
-
-    }
-    return JsonResponse(data,safe=False)
+    # data = {
+    #     'task_list': json_tasks
+    #
+    # }
+    return JsonResponse(json_tasks,safe=False)
 
 
 def show_task_lists_id(request,pk):
     task = TaskList.objects.get(id=pk)
     json_task = task.to_json()
-    data = {
-        'task_list': json_task
-    }
-    return JsonResponse(data,safe=False)
+    # data = {
+    #     'task_list': json_task
+    # }
+    return JsonResponse(json_task, safe=False)
 
 
 def show_task_of_task_list(request, pk):

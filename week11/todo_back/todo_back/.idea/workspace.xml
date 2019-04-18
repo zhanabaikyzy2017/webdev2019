@@ -5,13 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_back/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo_front/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo_front/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo_front/front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo_front/front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo_front/front/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/src/app/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../todo_front/front/src/app/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/src/app/main/main.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo_front/front/src/app/services/provider.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo_front/front/src/app/services/provider.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/todo_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_back/todo_back/todo_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_front/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_front/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_front/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_front/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_front/front/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_front/front/src/app/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week12/todo_front/front/src/app/services/provider.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week12/todo_front/front/src/app/services/provider.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -34,13 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/views.py">
+        <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="701">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -68,9 +92,9 @@
         <option value="$PROJECT_DIR$/api/urls" />
         <option value="$PROJECT_DIR$/new_app_api/models.py" />
         <option value="$PROJECT_DIR$/todo_back/urls.py" />
-        <option value="$PROJECT_DIR$/todo_back/settings.py" />
         <option value="$PROJECT_DIR$/api/admin.py" />
         <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/todo_back/settings.py" />
         <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
       </list>
@@ -105,6 +129,16 @@
               <item name="todo_back" type="b2602c69:ProjectViewProjectNode" />
               <item name="todo_back" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="todo_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo_back" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo_back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo_back" type="462c0819:PsiDirectoryNode" />
+              <item name="todo_back" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week12/todo_back/todo_back" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -213,13 +247,6 @@
     <entry file="file://$PROJECT_DIR$/new_app_api/models.py" />
     <entry file="file://$PROJECT_DIR$/new_app_api/admin.py" />
     <entry file="file://$PROJECT_DIR$/new_app_api/urls.py" />
-    <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -235,16 +262,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_back/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -272,10 +289,27 @@
     <entry file="file://$PROJECT_DIR$/api/migrations/0003_task.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/todo_back/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -284,11 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="524">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
         </state>
       </provider>
     </entry>
