@@ -7,7 +7,9 @@ urlpatterns = [
     #path('count/',views.index),
     path('task_lists/',views.TaskLists.as_view()),
     path('task_lists/<int:pk>', views.TaskListDetail.as_view()),
-    path('task_lists/<int:pk>/tasks/<int:pk2>', show_task_of_task_list2),
-    path('task_lists/<int:pk>/tasks/',show_task_of_task_list),
+    # path('task_lists/<int:pk>/tasks/<int:pk2>', show_task_of_task_list2),
+    path('task_lists/<int:pk>/tasks/',views.show_task_of_task_list),
     path('users/',views.UserList.as_view()),
+    path('login/',views.login),
+    path('logout/',views.logout),
 ]

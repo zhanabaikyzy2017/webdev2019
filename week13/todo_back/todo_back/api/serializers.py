@@ -16,6 +16,20 @@ class TaskListSerializer(serializers.Serializer):
         instance.save()
         return instance
 
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email')
+
+
+class TaskListSerializer2(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField()
+    created_by = UserSerializer(read_only=True)
+
+    class Meta:
+        model = TaskList
+        fields = ('id','name','created_by')
 
 
 class TaskSerializer(serializers.ModelSerializer):
@@ -39,8 +53,5 @@ class TaskSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = '__all__'
+
 

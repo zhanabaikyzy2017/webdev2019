@@ -40,4 +40,14 @@ def show_task_lists_id(request,pk):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
+@api_view(['GET'])
+def show_task_of_task_list(request, pk):
+    try:
+        task_lists = TaskList.objects.get(id=pk)
+    except TaskList.DoesNotExist as e:
+        return Response(status=status.HTTP_404_NOT_FOUND)
 
+    tasks = task_lists.task_set.all()
+    serializer = TaskSerializer(tasks,many=True)
+
+    return Response(serializer.data,status=status.HTTP_200_OK)

@@ -1,4 +1,4 @@
-<div class = "main">
+<!-- <div class = "main">
   <div class="taskLists">
     <div *ngFor="let t of taskLists" (click) = "getTaskOfTaskList(t)" class = "taskList">{{t.id}} : {{t.name}}</div>
   </div>
@@ -13,4 +13,42 @@
   </div>
 </div>
 
-<h1>main works</h1>
+<h1>main works</h1> -->
+<ng-container *ngIf = "!logged">
+  <div>
+    <div><input type = "text" [(ngModel)] = "login" /></div>
+    <div><input type="text" [(ngModel)] = "password"/></div>
+    <div><button (click) = "auth()"> Log In</button></div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf = "logged">
+  CREATE TASKLIST:
+  <div>
+    <input type = "text" [(ngModel)] = "name"/>
+    <button (click)="createTaskList()">Create</button>
+  </div>
+  
+  TASKLISTS:
+  <ng-container>
+    <div>
+      <div *ngFor="let t of taskLists">
+        <span (click) = "getTaskOfTaskList(t)">
+          <input type = "text" [(ngModel)]="t.name" />
+        </span>
+        <span style = "color:red" (click)= "deleteTaskList(t)">Delete</span>
+        <span style = "color:green" (click)= "updateTaskList(t)">Update</span>
+      </div>
+    </div>
+  </ng-container>
+  <br/>
+  TASKS:
+  <div>
+    <div *ngFor = "let t of tasks">{{t.id}}-{{t.name}} - {{status}}</div>
+  </div>
+  <div>
+    <button (click)="logout()">Log Out </button>
+  </div>
+
+  
+</ng-container>

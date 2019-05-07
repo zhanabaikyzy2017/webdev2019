@@ -9,3 +9,6 @@ export interface Task{
     created_at:Date;
     due_on:Date;
 }
+export interface IAuthResponse{
+    token:string;
+}

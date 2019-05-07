@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
 from api.models import TaskList
 
+
 def index (request):
     count = TaskList.objects.count()
     data = {

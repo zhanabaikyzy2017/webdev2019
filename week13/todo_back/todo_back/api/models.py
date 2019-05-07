@@ -1,16 +1,21 @@
 from django.db import models
 from datetime import datetime
+from django.contrib.auth.models import User
 
 class TaskList(models.Model):
     name = models.CharField(max_length = 255)
+    created_by = models.ForeignKey(User, on_delete=models.CASCADE, default=2)
 
     def __str__(self):
         return self.name
+
     def to_json(self):
         return{
             'id' : self.id,
             'name':self.name
         }
+
+
 
 class Task(models.Model):
     name = models.CharField(max_length=255)

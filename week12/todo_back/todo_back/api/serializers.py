@@ -1,7 +1,6 @@
 from rest_framework import serializers
 from api.models import TaskList,Task
 
-
 class TaskListSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name = serializers.CharField(max_length=200)
@@ -15,8 +14,6 @@ class TaskListSerializer(serializers.Serializer):
         instance.name = validated_data.get('name', instance.name)
         instance.save()
         return instance
-
-
 
 class TaskSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)

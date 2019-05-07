@@ -11,7 +11,6 @@ export class ProviderService extends MainService {
   constructor(http:HttpClient) {
     super(http);
   }
-  
 
   getTaskLists() : Promise<TaskList[]> {
     return this.get('http://localhost:8000/api/task_lists/',{});
